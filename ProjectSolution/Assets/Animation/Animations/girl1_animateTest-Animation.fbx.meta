@@ -1,0 +1,1649 @@
+fileFormatVersion: 2
+guid: a1d8b2e070a7e6c4d93ace3858cf028f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone
+    100002: chest
+    100004: finger01_L
+    100006: finger01_R
+    100008: finger02_L
+    100010: finger02_R
+    100012: finger03_L
+    100014: finger03_R
+    100016: foot_L
+    100018: foot_R
+    100020: Girl
+    100022: //RootNode
+    100024: hand_L
+    100026: hand_R
+    100028: head
+    100030: hips
+    100032: lowerhand_L
+    100034: lowerhand_R
+    100036: lowerleg_L
+    100038: lowerleg_R
+    100040: neck
+    100042: shoulder_L
+    100044: shoulder_R
+    100046: spine
+    100048: thumb01_L
+    100050: thumb01_R
+    100052: thumb02_L
+    100054: thumb02_R
+    100056: thumb03_L
+    100058: thumb03_R
+    100060: toe_L
+    100062: toe_R
+    100064: upperhand_L
+    100066: upperhand_R
+    100068: upperleg_L
+    100070: upperleg_R
+    400000: Bone
+    400002: chest
+    400004: finger01_L
+    400006: finger01_R
+    400008: finger02_L
+    400010: finger02_R
+    400012: finger03_L
+    400014: finger03_R
+    400016: foot_L
+    400018: foot_R
+    400020: Girl
+    400022: //RootNode
+    400024: hand_L
+    400026: hand_R
+    400028: head
+    400030: hips
+    400032: lowerhand_L
+    400034: lowerhand_R
+    400036: lowerleg_L
+    400038: lowerleg_R
+    400040: neck
+    400042: shoulder_L
+    400044: shoulder_R
+    400046: spine
+    400048: thumb01_L
+    400050: thumb01_R
+    400052: thumb02_L
+    400054: thumb02_R
+    400056: thumb03_L
+    400058: thumb03_R
+    400060: toe_L
+    400062: toe_R
+    400064: upperhand_L
+    400066: upperhand_R
+    400068: upperleg_L
+    400070: upperleg_R
+    7400000: Drop
+    7400002: Fall
+    7400004: Idle
+    7400006: Jump
+    7400008: Run
+    7400010: Swing
+    7400012: Swing_001
+    7400014: WalkBack
+    7400016: WalkFront
+    7400018: WalkLeft
+    7400020: WalkRight
+    7400022: JumpStance
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Drop
+      takeName: Drop
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fall
+      takeName: Fall
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Jump
+      firstFrame: 15
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Run
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Swing
+      takeName: Swing
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkBack
+      takeName: WalkBack
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkFront
+      takeName: WalkFront
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkLeft
+      takeName: WalkLeft
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkRight
+      takeName: WalkRight
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: JumpStance
+      takeName: Jump
+      firstFrame: 0
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Girl
+        weight: 1
+      - path: Girl/Bone
+        weight: 1
+      - path: Girl/Bone/hips
+        weight: 1
+      - path: Girl/Bone/hips/spine
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/neck/head
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/finger01_L/finger02_L/finger03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_L/upperhand_L/lowerhand_L/hand_L/thumb01_L/thumb02_L/thumb03_L
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/finger01_R/finger02_R/finger03_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R
+        weight: 1
+      - path: Girl/Bone/hips/spine/chest/shoulder_R/upperhand_R/lowerhand_R/hand_R/thumb01_R/thumb02_R/thumb03_R
+        weight: 1
+      - path: Girl/Bone/upperleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/foot_L
+        weight: 1
+      - path: Girl/Bone/upperleg_L/lowerleg_L/toe_L
+        weight: 0
+      - path: Girl/Bone/upperleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/foot_R
+        weight: 1
+      - path: Girl/Bone/upperleg_R/lowerleg_R/toe_R
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Bone
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperleg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperleg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerleg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerleg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shoulder_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperhand_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upperhand_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerhand_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lowerhand_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb01_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb02_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb03_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb01_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb02_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb03_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger01_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger02_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger03_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger01_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger02_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: finger03_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: girl1_animateTest-Animation(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Girl
+      position: {x: 8.2462094e-07, y: .0562151186, z: -8.86547568e-05}
+      rotation: {x: -.707106888, y: 0, z: -0, w: .707106769}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Bone
+      position: {x: .000262064335, y: .00339266588, z: -.00203053001}
+      rotation: {x: .0065011289, y: .00650096172, z: -.707076907, w: .707076907}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hips
+      position: {x: .0033940482, y: -.000262064626, z: -4.39788237e-05}
+      rotation: {x: -3.14326023e-08, y: .700575888, z: -8.28065509e-08, w: .713577926}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine
+      position: {x: -.00725103356, y: 5.47437817e-10, z: 9.99999984e-18}
+      rotation: {x: -4.97418828e-16, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest
+      position: {x: -.0121327778, y: 9.15999276e-10, z: -1.99999997e-17}
+      rotation: {x: 1.44215335e-07, y: .0273131896, z: -3.88410859e-09, w: .999626935}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck
+      position: {x: -.0119101228, y: 8.99189168e-10, z: -1.13811504e-11}
+      rotation: {x: -1.47006475e-07, y: -.0688328072, z: 9.79793668e-09, w: .997628212}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head
+      position: {x: -.00783140399, y: 5.91254656e-10, z: 8.40830114e-11}
+      rotation: {x: 3.07850745e-09, y: .0415586717, z: 2.45685416e-12, w: .99913609}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: shoulder_L
+      position: {x: -.00992741901, y: -.00305916741, z: .00288540032}
+      rotation: {x: -.440990895, y: -.578818381, z: .415032923, w: .546117187}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: upperhand_L
+      position: {x: -.0107001681, y: 9.6379893e-10, z: 4.67854533e-10}
+      rotation: {x: .00609750999, y: -.0197025761, z: .0991859585, w: .994855225}
+      scale: {x: .999999821, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: lowerhand_L
+      position: {x: -.0144113628, y: 1.08270981e-09, z: -8.49769088e-10}
+      rotation: {x: -.000498537847, y: .0291252676, z: .0750156716, w: .996756792}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: hand_L
+      position: {x: -.0161871146, y: 1.27582733e-09, z: -2.35919817e-09}
+      rotation: {x: 7.14729942e-10, y: -2.43611381e-11, z: -.0340651758, w: .99941963}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: finger01_L
+      position: {x: -.00418361882, y: 2.93916336e-10, z: 2.96548307e-11}
+      rotation: {x: -.00415773783, y: .00859798398, z: -.0853157714, w: .996308267}
+      scale: {x: .999999821, y: .999999821, z: .999999821}
+      transformModified: 1
+    - name: finger02_L
+      position: {x: -.00327421539, y: 4.81906071e-10, z: 8.86584764e-11}
+      rotation: {x: .00451179966, y: -.00832123961, z: .0392482318, w: .999184668}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: finger03_L
+      position: {x: -.00403824029, y: 2.75202e-10, z: 4.93279917e-10}
+      rotation: {x: -1.41937628e-09, y: -1.20518998e-10, z: .0846051946, w: .996414542}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb01_L
+      position: {x: -.00418361882, y: 2.93916336e-10, z: 2.96548307e-11}
+      rotation: {x: .943111897, y: .310894907, z: -.024096271, w: -.115341909}
+      scale: {x: .99999994, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: thumb02_L
+      position: {x: -.00477573462, y: -3.91760846e-10, z: 1.32953559e-09}
+      rotation: {x: .998803556, y: -.0189762209, z: .0277025755, w: .0355520435}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: thumb03_L
+      position: {x: -.0030430113, y: -3.7220757e-10, z: 2.30438724e-10}
+      rotation: {x: 2.7462935e-08, y: -2.19168372e-09, z: -.0795522183, w: .996830702}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: shoulder_R
+      position: {x: -.00992741808, y: .00305917044, z: .00288539869}
+      rotation: {x: .440990657, y: -.57881856, z: -.415032744, w: .546117306}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: upperhand_R
+      position: {x: -.01070017, y: 7.14809434e-10, z: -2.7536215e-10}
+      rotation: {x: -.00609756866, y: -.0197027158, z: -.0991857424, w: .994855165}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: lowerhand_R
+      position: {x: -.0144113628, y: 1.2357827e-09, z: -5.3696908e-10}
+      rotation: {x: .000498537032, y: .0291252676, z: -.0750156641, w: .996756792}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand_R
+      position: {x: -.0161871109, y: 1.39855139e-09, z: 3.3246636e-10}
+      rotation: {x: 1.18421173e-09, y: 4.03641079e-11, z: .0340651758, w: .99941963}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: finger01_R
+      position: {x: -.00418361649, y: 2.74418266e-10, z: -2.0187183e-09}
+      rotation: {x: .00415787986, y: .00859786384, z: .0853154287, w: .996308208}
+      scale: {x: .99999994, y: .99999994, z: .999999821}
+      transformModified: 1
+    - name: finger02_R
+      position: {x: -.00327421422, y: 1.73865866e-10, z: 3.70310421e-10}
+      rotation: {x: -.00451176474, y: -.00832116138, z: -.0392480232, w: .999184668}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: finger03_R
+      position: {x: -.00403824123, y: 8.27588831e-11, z: 8.4339602e-10}
+      rotation: {x: -3.58725449e-09, y: 3.0459274e-10, z: -.0846051946, w: .996414542}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb01_R
+      position: {x: -.00418361649, y: 2.74418266e-10, z: -2.0187183e-09}
+      rotation: {x: .943111658, y: -.310895532, z: -.0240960699, w: .115341946}
+      scale: {x: .999999881, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb02_R
+      position: {x: -.00477573462, y: 1.32950317e-09, z: -2.64192834e-10}
+      rotation: {x: .998803616, y: .0189758334, z: .027702529, w: -.0355521999}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: thumb03_R
+      position: {x: -.00304301246, y: -2.65035571e-09, z: 1.80524429e-10}
+      rotation: {x: -4.47792736e-08, y: -3.57361207e-09, z: .0795522109, w: .996830702}
+      scale: {x: .99999994, y: .99999994, z: 1}
+      transformModified: 1
+    - name: upperleg_L
+      position: {x: .00374152837, y: -.00713733351, z: -.00376228732}
+      rotation: {x: -.0336316153, y: -.743741035, z: -.0030599304, w: .667614281}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: lowerleg_L
+      position: {x: -.0242685936, y: 8.40213288e-10, z: -3.92267857e-10}
+      rotation: {x: .018245725, y: .0586849377, z: -.0147531983, w: .998000801}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_L
+      position: {x: -.0198144577, y: 1.25818755e-09, z: -1.76130395e-11}
+      rotation: {x: .00970365293, y: .302851737, z: -.00349586247, w: .952981889}
+      scale: {x: .999999881, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: toe_L
+      position: {x: -.0198144577, y: 1.25818755e-09, z: -1.76130395e-11}
+      rotation: {x: .00299429172, y: -.58325088, z: -.00986988842, w: .812226593}
+      scale: {x: .999999821, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: upperleg_R
+      position: {x: .00374152954, y: .00661320239, z: -.00376229058}
+      rotation: {x: .0336313248, y: -.743741035, z: .00306009501, w: .667614281}
+      scale: {x: 1, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: lowerleg_R
+      position: {x: -.0242685936, y: 1.68854408e-09, z: -1.2867224e-10}
+      rotation: {x: -.0182457082, y: .0586849414, z: .0147531983, w: .998000801}
+      scale: {x: .99999994, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: foot_R
+      position: {x: -.0198144577, y: 1.99761563e-09, z: 9.67416286e-11}
+      rotation: {x: -.00970360078, y: .302851707, z: .00349586015, w: .952981889}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: toe_R
+      position: {x: -.0198144577, y: 1.99761563e-09, z: 9.67416286e-11}
+      rotation: {x: -.00299438532, y: -.58325094, z: .00986988563, w: .812226593}
+      scale: {x: .999999821, y: .99999994, z: .999999821}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
